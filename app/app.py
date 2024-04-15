@@ -49,7 +49,7 @@ with ui.sidebar(title="Filter controls"):
         target="_blank",
     )
 
-
+# Detailed plots and data grid showing the filtered penguin data
 with ui.layout_column_wrap(fill=False):
     with ui.value_box(showcase=icon_svg("earlybirds")):
         "Number of penguins"
