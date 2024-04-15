@@ -5,11 +5,13 @@ from shiny import reactive
 from shiny.express import input, render, ui
 import palmerpenguins 
 
+# Load the dataset of penguins
 df = palmerpenguins.load_penguins()
 
+# Set page options such as the title and fillable option for the layout
 ui.page_opts(title="Shrestha Penguins dashboard", fillable=True)
 
-
+# Side panel for user input to control the filters applied to the penguin data
 with ui.sidebar(title="Filter controls"):
     ui.input_slider("mass", "Mass", 2000, 6000, 6000)
     ui.input_checkbox_group(
