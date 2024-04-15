@@ -37,7 +37,7 @@ with ui.sidebar(title="Filter controls"):
         href="https://github.com/sshres10/cintel-07-tdash/issues",
         target="_blank",
     )
-    ui.a("PyShiny", href="https://shiny.posit.co/py/", target="_blank")
+    ui.a("PyShiny", href="https://sshres10.github.io/cintel-07-tdash/", target="_blank")
     ui.a(
         "Template: Basic Dashboard",
         href="https://shiny.posit.co/py/templates/dashboard/",
