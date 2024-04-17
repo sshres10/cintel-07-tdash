@@ -10,7 +10,7 @@ from shinyswatch import theme
 df = palmerpenguins.load_penguins()
 
 # Set page options such as the title and fillable option for the layout
-ui.page_opts(title="Shrestha Penguins dashboard", fillable=True)
+ui.page_opts(title="Shrestha Penguin dashboard", fillable=True)
 
 # Side panel for user input to control the filters applied to the penguin data
 with ui.sidebar(title="Filter controls"):
