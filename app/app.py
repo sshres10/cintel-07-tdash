@@ -4,6 +4,7 @@ from faicons import icon_svg
 from shiny import reactive
 from shiny.express import input, render, ui
 import palmerpenguins 
+from shinyswatch import theme
 
 # Load the dataset of penguins
 df = palmerpenguins.load_penguins()
@@ -109,3 +110,4 @@ def filtered_df():
     filt_df = df[df["species"].isin(input.species())]
     filt_df = filt_df.loc[filt_df["body_mass_g"] < input.mass()]
     return filt_df
+theme.darkly()
