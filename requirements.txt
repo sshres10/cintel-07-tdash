@@ -4,4 +4,3 @@ shinylive
 seaborn
 pandas
 palmerpenguins
-shinywatch
